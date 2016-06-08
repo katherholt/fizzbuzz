@@ -1,0 +1,43 @@
+title {
+	text-align: center;	
+}
+
+.ingredients:hover {
+	color:pink;	
+}
+
+h1 {
+	border-style: solid;
+}
+
+section {
+	text-align: left;
+}
+
+.img{
+	height: 200px;
+	width: 200px;
+	border-radius: 55%;
+	box-shadow: 10px 10px 5px #FFDAB9;
+	float: right;
+	margin: 10px;	
+ }
+ 
+ 
+.opacity_img{
+  opacity: 0.45;
+}
+
+ .opacity_img:hover{
+  cursor:pointer;
+  opacity: 1.0;
+ }
+ 
+ input[type=checkbox] + label {
+  color: black;
+  font-style: normal;
+}
+input[type=checkbox]:checked + label {
+  color: #ccc;
+  font-style: italic;
+}
